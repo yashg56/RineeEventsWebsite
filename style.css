@@ -1,0 +1,113 @@
+#outercontainer {
+	width: 1008px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topbar {
+	background-color: #e6ffe6;
+	
+	padding-left: 10px;
+
+}
+#logo {
+	border: 2px solid; 
+	border-color: white;
+	width: 100px;
+	float: left;
+}
+
+#header {
+    font-family: 'Satisfy', cursive;
+	font-size: 80px;
+	color: black;
+	margin-top: 30px;
+	float: left;
+	padding-left: 50px;
+}
+
+#header p{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#menu {
+	position: relative;
+	z-index: 1;
+}
+
+  #menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li a {
+    text-decoration: none;
+    background-color: #ffd7cc;
+    color: black;
+    width: 250px;
+    display: block;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    border: 1px solid white;
+}
+
+#menu li {
+    float: left;
+    position: relative;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+#menu li li a:hover {
+    background-color: #e6ffe6;
+
+}
+
+#menu ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+
+}
+#menu ul li:hover ul{
+    visibility: visible;
+}
+.clear {
+	clear: both;
+}
+
+#logo {
+	width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+}
+#logo img {
+	width: 100%;
+}
+
+#how{
+    
+}
+
+label{
+    float: left;
+    width: 48%;
+    text-align: right;
+    margin-right: 5px;
+}
+textarea{
+    padding: 3px;
+}
+
+#sub{
+    text-align: center;
+}
